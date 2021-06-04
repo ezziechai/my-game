@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/q!:+zv22]=0+,Vy$J/j">p1</variable><variable id="Q`rjo(*K|m2K.*NB?XLn">xvelocity</variable><variable id="H2U1WIr2}kYg0;P?pV1u">yvelocity</variable><variable type="KIND_SpriteKind" id=")W,#D__}6MCRiivqiKtb">Player</variable><variable type="KIND_SpriteKind" id="Ke*LcCG)%R4#:4DPfe.2">Projectile</variable><variable type="KIND_SpriteKind" id="qwj~ZDNF?t(~4Oxrsm36">Food</variable><variable type="KIND_SpriteKind" id="0e!KvkjfjHSb+4_Yd{+f">Enemy</variable></variables><comment id="]P3kfmg`(wDCPxM3:)U6" data="0" x="27" y="352" h="120" w="160">My game</comment><block type="pxt-on-start" id="xm3f729![tCaZS%KH^LH" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="M{bNSBv~N0!ww^eLtSj="><field name="VAR" id="/q!:+zv22]=0+,Vy$J/j">p1</field><comment>The player</comment><data>0</data><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="n]8]1_7_=f9CyY96;BQ5"><value name="img"><shadow type="screen_image_picker" id="Za6][$QuNt,GO:!.z?*w"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Za6][$QuNt,GO:!.z?*w"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="%1Y3l0zk0:sQ$[wio@^6"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="RuS9[mDM35L#6`}f:c*@"><field name="VAR" id="Q`rjo(*K|m2K.*NB?XLn">xvelocity</field><comment>Moving the sprites</comment><value name="VALUE"><shadow type="math_number" id="wRDyd2(kR7V@1nBnD/Vm"><field name="NUM">125</field></shadow></value><next><block type="variables_set" id="Y{sIN@V#2LcEa`^ZF+nD"><field name="VAR" id="H2U1WIr2}kYg0;P?pV1u">yvelocity</field><value name="VALUE"><shadow type="math_number" id="yvKKFrLFg/CXPh]gHm[R"><field name="NUM">125</field></shadow></value><next><block type="game_control_sprite" id="kdI|0Ow;h!-orp~2.M=j"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get" id="eosas0!_XCj.W;kP$J%H"><field name="VAR" id="/q!:+zv22]=0+,Vy$J/j">p1</field></shadow></value><value name="vx"><block type="variables_get" id="$RK^$H]Ax3,L_xE@*1`6"><field name="VAR" id="Q`rjo(*K|m2K.*NB?XLn">xvelocity</field></block></value><value name="vy"><block type="variables_get" id="*~;mo@^N;u.b#4vfhP9h"><field name="VAR" id="H2U1WIr2}kYg0;P?pV1u">yvelocity</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
